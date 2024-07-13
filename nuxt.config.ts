@@ -14,6 +14,15 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
 
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        path: '/',
+        redirect: 'dashboard/links'
+      });
+    }
+  },
+
   routeRules: {
     '/': {
       prerender: true,
