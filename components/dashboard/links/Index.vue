@@ -63,7 +63,7 @@ function updateLinkList(link, type) {
       v-if="!isLoading && listComplete"
       class="flex items-center justify-center text-sm"
     >
-      No more
+      没有数据
     </div>
   </main>
 </template>

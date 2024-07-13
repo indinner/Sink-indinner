@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  title: 'LAKI短链接',
+  title: 'Laki',
   description: '一个能够让您的链接变的十分优雅的工具.',
   image: 'https://sink.cool/banner.png',
   previewTTL: 24 * 3600, // 24h

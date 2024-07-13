@@ -29,15 +29,15 @@ async function deleteLink() {
     </AlertDialogTrigger>
     <AlertDialogContent class="max-w-[95svw] max-h-[95svh] md:max-w-lg grid-rows-[auto_minmax(0,1fr)_auto]">
       <AlertDialogHeader>
-        <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+        <AlertDialogTitle>确认删除?</AlertDialogTitle>
         <AlertDialogDescription>
-          This action cannot be undone. This will really delete your link from servers.
+          此操作不能撤销，将会彻底删除您的链接.
         </AlertDialogDescription>
       </AlertDialogHeader>
       <AlertDialogFooter>
-        <AlertDialogCancel>Cancel</AlertDialogCancel>
+        <AlertDialogCancel>取消</AlertDialogCancel>
         <AlertDialogAction @click="deleteLink">
-          Continue
+          确定
         </AlertDialogAction>
       </AlertDialogFooter>
     </AlertDialogContent>

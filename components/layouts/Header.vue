@@ -27,7 +27,7 @@ const showMenu = ref(false)
                 class="w-full h-full rounded-full"
               >
             </span>
-            <span class="mx-2">LAKI</span>
+            <span class="mx-2">Laki</span>
           </a>
         </div>
 

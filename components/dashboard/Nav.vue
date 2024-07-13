@@ -11,12 +11,12 @@ const route = useRoute()
     >
       <TabsList>
         <TabsTrigger value="/dashboard">
-          Analysis
+          数据统计
         </TabsTrigger>
         <TabsTrigger
           value="/dashboard/links"
         >
-          Links
+          短链
         </TabsTrigger>
       </TabsList>
     </Tabs>
